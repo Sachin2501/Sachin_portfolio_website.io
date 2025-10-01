@@ -6,7 +6,7 @@ A modern, responsive portfolio website showcasing my skills, projects and experi
 
 ## 🌟 Live Demo
 
-[**Visit My Portfolio**](https://sachin2501.github.io/Sachin_portfolio_website.io/)
+[**Visit My Portfolio**](https://sachin2501.github.io/portfolio_website.io/)
 
 ## 🚀 Features
 
@@ -46,20 +46,30 @@ portfolio/
 
 ## 🎯 What's Inside
 
-### Sections Included:
-1. **Hero** - Introduction with typing animation
-2. **About** - Personal and professional background
-3. **Skills** - Technical skills and technologies
-4. **Projects** - Featured projects with live demos
-5. **Contact** - Contact form and information
+## 🎯Sections Included
 
-### Key Features:
-- Typing animation for name and roles
-- Responsive navigation with mobile menu
-- Project cards with technology tags
-- Smooth scrolling between sections
-- Form validation with success messages
+1. **Hero** - Introduction with typing animation and professional overview
+2. **About** - Personal journey and professional background  
+3. **Experience** - Internships at Microsoft & SAP, EY, and AI/ML roles
+4. **Education** - B.Tech in CSE and B.Sc in Mathematics
+5. **Certifications** - IBM, Cisco, and Internshala certifications
+6. **Skills** - Web development, AI/ML, and programming expertise
+7. **Projects** - Real-world applications with source code
+8. **Contact** - Professional contact form and information
 
+## ✨ Key Features
+
+- **Dynamic Typing Animation** - Engaging name typing with rotating role descriptions
+- **Responsive Navigation** - Mobile-optimized menu with smooth transitions
+- **Interactive Project Cards** - Hover effects, technology tags, and live demos
+- **Seamless Navigation** - Smooth scrolling between all 8 sections
+- **Smart Contact Form** - Real-time validation with user feedback
+- **Professional Experience** - Detailed internship cards with achievements
+- **Education & Certifications** - Academic and professional credentials display
+- **Skills Showcase** - Categorized technical expertise
+- **Scroll Animations** - Fade-in effects on section visibility
+- **Mobile-First Design** - Fully responsive across all devices
+  
 ## 🚀 Quick Start
 
 ### Method 1: Simple View
