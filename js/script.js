@@ -297,3 +297,20 @@ window.addEventListener('load', function() {
         document.querySelector('.nav-links').style.display = 'none';
     }
 });
+
+// Mobile menu toggle - UPDATED
+const hamburger = document.querySelector('.hamburger');
+const navLinks = document.querySelector('.nav-links');
+
+if (hamburger) {
+    hamburger.addEventListener('click', function() {
+        navLinks.classList.toggle('active');
+    });
+}
+
+// Close mobile menu when clicking on links
+document.querySelectorAll('.nav-links a').forEach(link => {
+    link.addEventListener('click', function() {
+        navLinks.classList.remove('active');
+    });
+});
