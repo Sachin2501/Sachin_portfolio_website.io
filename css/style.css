@@ -496,6 +496,21 @@ nav {
   font-weight: 500;
 }
 
+.tech-tag:hover {
+  background: #3b82f6;
+  color: white;
+  transform: scale(1.05);
+  box-shadow: 0 5px 15px rgba(59, 130, 246, 0.3);
+}
+
+.tech-tag i {
+  margin-right: 0.3rem;
+}
+
+.tech-tag span {
+  vertical-align: middle;
+}
+
 .project-links {
   display: flex;
   gap: 1rem;
