@@ -321,6 +321,51 @@ nav {
   font-size: 1.2rem;
 }
 
+/* Social Links - Responsive Addition */
+@media (max-width: 768px) {
+  .social-links-home {
+    justify-content: center;
+    gap: 0.8rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .social-links-home {
+    gap: 0.6rem;
+  }
+  
+  .social-links-home a {
+    width: 42px;
+    height: 42px;
+  }
+  
+  .social-links-home i {
+    font-size: 1.1rem;
+  }
+}
+
+/* Sirf mobile pe center ke liye */
+@media (max-width: 768px) {
+  .social-links-home {
+    justify-content: center;
+  }
+}
+
+/* iPad Mini aur chote tablets ke liye */
+@media (max-width: 768px) {
+  .social-links-home {
+    justify-content: center;
+    gap: 0.8rem;
+  }
+}
+
+/* Larger iPad screens ke liye */
+@media (min-width: 769px) and (max-width: 1024px) {
+  .social-links-home {
+    justify-content: flex-start;
+  }
+}
+
 /* Hero Buttons */
 .hero-btns {
   display: flex;
@@ -1070,31 +1115,53 @@ footer {
   font-size: 0.85rem;
 }
 
-/* Form Success Message */
-.form-success {
-  background: #10b981;
-  color: white;
-  padding: 1rem;
-  border-radius: 8px;
-  margin-bottom: 1rem;
-  text-align: center;
-  display: none;
+/* Message Styles */
+#formMessages {
+  margin-bottom: 20px;
 }
 
-.form-error {
-  background: #ef4444;
-  color: white;
-  padding: 1rem;
+.message {
+  padding: 15px 20px;
   border-radius: 8px;
+  font-weight: 500;
   margin-bottom: 1rem;
-  text-align: center;
-  display: none;
+  font-size: 1rem;
+  line-height: 1.5;
+  border-left: 4px solid;
+  animation: slideIn 0.3s ease-out;
 }
 
-/* Button Loading State */
+.success-message {
+  background: #d4edda;
+  color: #155724;
+  border-left-color: #28a745;
+}
+
+.error-message {
+  background: #f8d7da;
+  color: #721c24;
+  border-left-color: #dc3545;
+}
+
 .btn-loading {
-  position: relative;
-  color: transparent;
+  opacity: 0.7;
+  cursor: not-allowed;
+}
+
+.btn:disabled {
+    background-color: #6c757d;
+    cursor: not-allowed;
+}
+
+@keyframes slideIn {
+  from {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
 
 .btn-loading::after {

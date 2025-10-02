@@ -570,7 +570,6 @@
     </div>
   </div>
 </section>
-
     <!-- Contact Section -->
 <section id="contact">
   <div class="container">
@@ -608,8 +607,15 @@
         </div>
       </div>
       <div class="contact-form">
-        <!-- Message container will be inserted here by JavaScript -->
-        <form id="contactForm">
+        <!-- Success/Error Messages -->
+        <div id="formMessages"></div>
+        
+        <!-- Formspree connected form -->
+        <form 
+          id="contactForm" 
+          action="https://formspree.io/f/xrbykkkb" 
+          method="POST"
+        >
           <div class="form-group">
             <label for="name">Name</label>
             <input type="text" id="name" name="name" placeholder="Your Name" required />
@@ -644,13 +650,17 @@
               required
             ></textarea>
           </div>
+          
+          <!-- Simple hidden fields without template variables -->
+          <input type="hidden" name="_subject" value="New message from portfolio website">
+          <input type="hidden" name="_replyto" id="_replytoField">
+          
           <button type="submit" class="btn">Send Message</button>
         </form>
       </div>
     </div>
   </div>
 </section>
-
     <!-- Footer -->
 <footer>
   <div class="container">
